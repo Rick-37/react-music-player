@@ -40,6 +40,12 @@ input[type="range"]::-webkit-slider-thumb {
   width: 16px;
 }
 
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+}
+
 .track {
   margin-top: 1rem;
   background: lightblue;
